@@ -48,7 +48,7 @@ class Test {
     void testDivision() {
         OperacionAritmetica division = new OperacionAritmetica(new Division());
         //Se hace una division comun
-        assertEquals(2, division.procesar(10, 5));
+        assertEquals(5, division.procesar(10, 2));
         //Se hace una division entre cero
         assertEquals(-3, division.procesar(5, 0));
         //Se hace una division con un numero negativo
